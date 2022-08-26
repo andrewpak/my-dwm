@@ -16,9 +16,9 @@ static const char col_gray4[]       = "#eeeeee";
 static const char mycol_gray[]		= "#81A1C1";
 static const char col_cyan[]        = "#005577";
 static const char mycol_red[]		= "#3B4252";
-static const char *mutecmd[]		= { "pactl", "set-sink-mute", "4", "toggle", NULL };
-static const char *volup[]			= { "pactl", "set-sink-volume", "4", "+5%", NULL };
-static const char *voldown[]		= { "pactl", "set-sink-volume", "4", "-5%", NULL};
+static const char *mutecmd[]		= { "pactl", "set-sink-mute", "3", "toggle", NULL };
+static const char *volup[]			= { "pactl", "set-sink-volume", "3", "+5%", NULL };
+static const char *voldown[]		= { "pactl", "set-sink-volume", "3", "-5%", NULL};
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
