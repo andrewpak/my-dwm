@@ -20,10 +20,18 @@ static const char *mutecmd[]		= { "pactl", "set-sink-mute", "3", "toggle", NULL 
 static const char *volup[]			= { "pactl", "set-sink-volume", "3", "+5%", NULL };
 static const char *voldown[]		= { "pactl", "set-sink-volume", "3", "-5%", NULL};
 
+static const unsigned int baralpha = 0xd0;
+static const unsigned int borderalpha = OPAQUE;
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { mycol_gray, col_gray1, col_gray2 },
 	[SchemeSel]  = { mycol_gray, mycol_red,  mycol_red },
+};
+
+static const unsigned int alphas[][3] = {
+	[SchemeNorm]	= { OPAQUE, baralpha, borderalpha },
+	[SchemeSel]		= { OPAQUE, baralpha, borderalpha },
 };
 
 /* tagging */
