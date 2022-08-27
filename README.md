@@ -1,5 +1,9 @@
 # My dwm build on Gentoo
 
+I love a fat desktop like [KDE Plasma](https://kde.org/plasma-desktop/) but I'm striving to keep it minimal and [sucking less](https://suckless.org/philosophy/).
+
+My dwm build here is heavily inspired by: [Luke Smith](https://github.com/LukeSmithxyz), [Mental Outlaw](https://github.com/MentalOutlaw), and [Kai Hedry](https://github.com/kaihendry). All props go to them.
+
 I have applied the following patches to this dwm build:
 
 * alpha patch (for transparency in the top bar)
@@ -12,7 +16,7 @@ In order to have color in the top bar you have to patch libXft
 The link to the patch is here:
 https://gitlab.freedesktop.org/xorg/lib/libxft/-/merge_requests/1.patch
 
-Put the patch inside /etc/portage/patches/libxft/
+Put the patch inside `/etc/portage/patches/libxft/`
 
 Then re-emerge libXft accordingly:
 
