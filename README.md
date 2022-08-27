@@ -24,3 +24,7 @@ The isCol function is still in drw.c, just commented out. I left it there in cas
 The status bar is handled by dwmblocks and is required for it to work as I have it on my machine.
 
 The weather is retrieved through a simple shell script that runs `curl -s 'wttr.in/?format=1' | awk '{print $2}'` once per day. 
+
+Heres a picture of how it looks:
+
+![](./2022-08-27_02-15.png)
