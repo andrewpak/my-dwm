@@ -2,7 +2,7 @@
 
 I love a fat desktop like [KDE Plasma](https://kde.org/plasma-desktop/) but I'm striving to keep it minimal and [sucking less](https://suckless.org/philosophy/).
 
-My dwm build here is heavily inspired by: [Luke Smith](https://github.com/LukeSmithxyz), [Mental Outlaw](https://github.com/MentalOutlaw), and [Kai Hedry](https://github.com/kaihendry). All props go to them.
+My dwm build here is heavily inspired by: [Luke Smith](https://github.com/LukeSmithxyz), [Mental Outlaw](https://github.com/MentalOutlaw), and [Kai Hendry](https://github.com/kaihendry). All props go to them.
 
 I have applied the following patches to this dwm build:
 
