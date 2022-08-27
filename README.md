@@ -16,11 +16,11 @@ In order to have color in the top bar you have to patch libXft
 The link to the patch is here:
 https://gitlab.freedesktop.org/xorg/lib/libxft/-/merge_requests/1.patch
 
-Put the patch inside `/etc/portage/patches/libxft/`
+Put the patch inside `/etc/portage/patches/libXft/`
 
 Then re-emerge libXft accordingly:
 
-`doas emerge --ask --verbose --newuse libXft`
+`doas emerge --ask --verbose libXft`
 
 
 The isCol function is still in drw.c, just commented out. I left it there in case I need to reference it later.
