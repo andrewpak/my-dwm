@@ -21,5 +21,6 @@ Then re-emerge libXft accordingly:
 
 The isCol function is still in drw.c, just commented out. I left it there in case I need to reference it later.
 
+The status bar is handled by dwmblocks and is required for it to work as I have it on my machine.
 
-
+The weather is retrieved through a simple shell script that runs `curl wttr.in` once per day. 
