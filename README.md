@@ -31,5 +31,5 @@ The weather is retrieved through a simple shell script that runs `curl -s 'wttr.
 
 Heres a picture of how it looks:
 
-![](./2022-08-27_02-15.png)
+![](./2022-08-27_03-13.png)
 
