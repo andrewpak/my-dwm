@@ -1,4 +1,3 @@
-// testing something
 /* See LICENSE file for copyright and license details. */
 #include <X11/XF86keysym.h>
 /* appearance */
@@ -15,7 +14,7 @@ static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char mycol_gray[]		= "#f2e5bc";
 static const char col_cyan[]        = "#005577";
-static const char mycol_red[]		= "#076678";
+static const char mycol_red[]		= "#072A6c";
 static const char *mutecmd[]		= { "pactl", "set-sink-mute", "3", "toggle", NULL };
 static const char *volup[]			= { "pactl", "set-sink-volume", "3", "+5%", NULL };
 static const char *voldown[]		= { "pactl", "set-sink-volume", "3", "-5%", NULL};
